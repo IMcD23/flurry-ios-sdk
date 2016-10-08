@@ -1,0 +1,6 @@
+framework module FlurryTVOS {
+  umbrella header "FlurryTVOS-Umbrella.h"
+
+  export *
+  module * { export * }
+}

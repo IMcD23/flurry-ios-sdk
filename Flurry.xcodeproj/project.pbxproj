@@ -1,0 +1,1319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		3C34A2221DA9991700FE599B /* Build All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3C34A2231DA9991700FE599B /* Build configuration list for PBXAggregateTarget "Build All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				3C34A2271DA9991E00FE599B /* PBXTargetDependency */,
+				3C34A2291DA9991E00FE599B /* PBXTargetDependency */,
+				3C34A22B1DA9991E00FE599B /* PBXTargetDependency */,
+				3C34A22D1DA9991E00FE599B /* PBXTargetDependency */,
+				3C34A22F1DA9991E00FE599B /* PBXTargetDependency */,
+				3C34A2311DA9991E00FE599B /* PBXTargetDependency */,
+			);
+			name = "Build All";
+			productName = "Build All";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		3C34A1561DA9932700FE599B /* Flurry.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A1511DA9932700FE599B /* Flurry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A1581DA9932700FE599B /* FlurrySessionBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A1531DA9932700FE599B /* FlurrySessionBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A15F1DA993D500FE599B /* libFlurry_7.8.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A15C1DA993D300FE599B /* libFlurry_7.8.0.a */; };
+		3C34A1621DA9944E00FE599B /* Flurry.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A1511DA9932700FE599B /* Flurry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A1631DA9944E00FE599B /* FlurryWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A1541DA9932700FE599B /* FlurryWatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A1641DA9944E00FE599B /* FlurrySessionBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A1531DA9932700FE599B /* FlurrySessionBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A1671DA9944E00FE599B /* libFlurry_7.8.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A15C1DA993D300FE599B /* libFlurry_7.8.0.a */; };
+		3C34A1701DA994D200FE599B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A16F1DA994D200FE599B /* Foundation.framework */; };
+		3C34A1761DA9952700FE599B /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A1751DA9952700FE599B /* WatchConnectivity.framework */; };
+		3C34A1781DA9952C00FE599B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A1771DA9952C00FE599B /* SystemConfiguration.framework */; };
+		3C34A17A1DA9953100FE599B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A1791DA9953100FE599B /* UIKit.framework */; };
+		3C34A17C1DA9953500FE599B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A17B1DA9953500FE599B /* Security.framework */; };
+		3C34A17E1DA9958100FE599B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A16F1DA994D200FE599B /* Foundation.framework */; };
+		3C34A17F1DA9958500FE599B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A1771DA9952C00FE599B /* SystemConfiguration.framework */; };
+		3C34A1801DA9958900FE599B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A1791DA9953100FE599B /* UIKit.framework */; };
+		3C34A1811DA9958D00FE599B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A17B1DA9953500FE599B /* Security.framework */; };
+		3C34A1831DA9959100FE599B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A1821DA9959100FE599B /* StoreKit.framework */; };
+		3C34A1841DA9959700FE599B /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A1751DA9952700FE599B /* WatchConnectivity.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		3C34A1871DA995B500FE599B /* Flurry.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A1511DA9932700FE599B /* Flurry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A1881DA995B500FE599B /* FlurryWatch.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A1541DA9932700FE599B /* FlurryWatch.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A1891DA995B500FE599B /* FlurrySessionBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A1531DA9932700FE599B /* FlurrySessionBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A1901DA995B500FE599B /* WatchConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A1751DA9952700FE599B /* WatchConnectivity.framework */; };
+		3C34A1911DA995B500FE599B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A16F1DA994D200FE599B /* Foundation.framework */; };
+		3C34A1991DA9961800FE599B /* libFlurryWatch_7.8.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A15E1DA993D300FE599B /* libFlurryWatch_7.8.0.a */; };
+		3C34A19F1DA9964400FE599B /* Flurry.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A1511DA9932700FE599B /* Flurry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A1A11DA9964400FE599B /* FlurrySessionBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A1531DA9932700FE599B /* FlurrySessionBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A1AC1DA9968900FE599B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A1AB1DA9968900FE599B /* SystemConfiguration.framework */; };
+		3C34A1AE1DA9968F00FE599B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A1AD1DA9968F00FE599B /* Foundation.framework */; };
+		3C34A1B01DA9969300FE599B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A1AF1DA9969300FE599B /* UIKit.framework */; };
+		3C34A1B21DA9969700FE599B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A1B11DA9969700FE599B /* Security.framework */; };
+		3C34A1B41DA9969B00FE599B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A1B31DA9969B00FE599B /* StoreKit.framework */; };
+		3C34A1B51DA996A200FE599B /* libFlurryTVOS_7.8.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A15D1DA993D300FE599B /* libFlurryTVOS_7.8.0.a */; };
+		3C34A1DF1DA9976300FE599B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A1DE1DA9976300FE599B /* CoreGraphics.framework */; };
+		3C34A1E11DA9976700FE599B /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A1E01DA9976700FE599B /* CoreMedia.framework */; };
+		3C34A1E31DA9976C00FE599B /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A1E21DA9976C00FE599B /* MediaPlayer.framework */; };
+		3C34A1E51DA9977100FE599B /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A1E41DA9977100FE599B /* AVFoundation.framework */; };
+		3C34A1E71DA9977600FE599B /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A1E61DA9977600FE599B /* AdSupport.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		3C34A1E81DA9977C00FE599B /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A1821DA9959100FE599B /* StoreKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		3C34A1E91DA9978500FE599B /* libFlurryAds_7.8.0.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A1D71DA9971400FE599B /* libFlurryAds_7.8.0.a */; settings = {ATTRIBUTES = (Required, ); }; };
+		3C34A1EA1DA997AD00FE599B /* FlurryAdBanner.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A1CA1DA9971400FE599B /* FlurryAdBanner.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A1EB1DA997AE00FE599B /* FlurryAdBannerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A1CB1DA9971400FE599B /* FlurryAdBannerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A1EC1DA997B200FE599B /* FlurryAdInterstitial.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A1CD1DA9971400FE599B /* FlurryAdInterstitial.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A1ED1DA997B300FE599B /* FlurryAdInterstitialDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A1CE1DA9971400FE599B /* FlurryAdInterstitialDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A1EE1DA997B700FE599B /* FlurryAdNative.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A1D01DA9971400FE599B /* FlurryAdNative.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A1EF1DA997B900FE599B /* FlurryAdNativeAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A1D11DA9971400FE599B /* FlurryAdNativeAsset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A1F01DA997BB00FE599B /* FlurryAdNativeDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A1D21DA9971400FE599B /* FlurryAdNativeDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A1F11DA997BE00FE599B /* FlurryAdNativeStyle.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A1D31DA9971400FE599B /* FlurryAdNativeStyle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A1F21DA997C300FE599B /* FlurryAdError.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A1D91DA9971400FE599B /* FlurryAdError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A1F31DA997C700FE599B /* FlurryAdTargeting.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A1DA1DA9971400FE599B /* FlurryAdTargeting.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A1F41DA997CB00FE599B /* FlurryAdDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A1DC1DA9971400FE599B /* FlurryAdDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A1F51DA997CD00FE599B /* FlurryAds.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A1DD1DA9971400FE599B /* FlurryAds.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A2191DA9981F00FE599B /* FlurryTumblr.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A2171DA9981200FE599B /* FlurryTumblr.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A21A1DA9982000FE599B /* FlurryTumblrDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A2181DA9981200FE599B /* FlurryTumblrDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A21D1DA9988100FE599B /* FlurrySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A1371DA992D300FE599B /* FlurrySDK.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		3C34A21E1DA9988600FE599B /* FlurryAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A1C61DA996DC00FE599B /* FlurryAds.framework */; };
+		3C34A21F1DA9988A00FE599B /* FlurrySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A1371DA992D300FE599B /* FlurrySDK.framework */; };
+		3C34A23B1DA99A8D00FE599B /* FlurrySDK-Umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A23A1DA99A3600FE599B /* FlurrySDK-Umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A2411DA99C4000FE599B /* FlurryWatchSDK-Umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A23E1DA99B5300FE599B /* FlurryWatchSDK-Umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A2421DA99C4400FE599B /* FlurryWatchOSSDK-Umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A23D1DA99B1800FE599B /* FlurryWatchOSSDK-Umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A2431DA99C4700FE599B /* FlurryTVOS-Umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A23C1DA99AD300FE599B /* FlurryTVOS-Umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A2441DA99C4900FE599B /* FlurryAds-Umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A23F1DA99B8A00FE599B /* FlurryAds-Umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A2451DA99C5100FE599B /* TumblrAPI-Umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C34A2401DA99C1900FE599B /* TumblrAPI-Umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C34A2541DA9A02700FE599B /* FlurryEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C34A1521DA9932700FE599B /* FlurryEmpty.m */; };
+		3C34A2551DA9A03800FE599B /* FlurryEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C34A1521DA9932700FE599B /* FlurryEmpty.m */; };
+		3C34A2561DA9A03900FE599B /* FlurryWatchEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C34A1551DA9932700FE599B /* FlurryWatchEmpty.m */; };
+		3C34A2571DA9A03F00FE599B /* FlurryWatchEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C34A1551DA9932700FE599B /* FlurryWatchEmpty.m */; };
+		3C34A2581DA9A04600FE599B /* FlurryEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C34A1521DA9932700FE599B /* FlurryEmpty.m */; };
+		3C34A2591DA9A04E00FE599B /* FlurryAdsEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C34A1D61DA9971400FE599B /* FlurryAdsEmpty.m */; };
+		3C34A25A1DA9A05700FE599B /* FlurryAdsEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C34A1D61DA9971400FE599B /* FlurryAdsEmpty.m */; };
+		3C34A25D1DA9A1CC00FE599B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A25B1DA9A1C300FE599B /* libz.tbd */; settings = {ATTRIBUTES = (Weak, ); }; };
+		3C34A25E1DA9A36600FE599B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A25B1DA9A1C300FE599B /* libz.tbd */; settings = {ATTRIBUTES = (Weak, ); }; };
+		3C34A25F1DA9A3A200FE599B /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C34A25B1DA9A1C300FE599B /* libz.tbd */; settings = {ATTRIBUTES = (Weak, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C34A1F61DA997D900FE599B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C34A12E1DA992D300FE599B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C34A1361DA992D300FE599B;
+			remoteInfo = FlurrySDK;
+		};
+		3C34A1FA1DA997FB00FE599B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C34A12E1DA992D300FE599B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C34A1361DA992D300FE599B;
+			remoteInfo = FlurrySDK;
+		};
+		3C34A21B1DA9982600FE599B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C34A12E1DA992D300FE599B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C34A1B61DA996DC00FE599B;
+			remoteInfo = FlurryAds;
+		};
+		3C34A2261DA9991E00FE599B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C34A12E1DA992D300FE599B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C34A1361DA992D300FE599B;
+			remoteInfo = FlurrySDK;
+		};
+		3C34A2281DA9991E00FE599B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C34A12E1DA992D300FE599B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C34A1601DA9944E00FE599B;
+			remoteInfo = FlurryWatchSDK;
+		};
+		3C34A22A1DA9991E00FE599B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C34A12E1DA992D300FE599B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C34A1851DA995B500FE599B;
+			remoteInfo = FlurryWatchOSSDK;
+		};
+		3C34A22C1DA9991E00FE599B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C34A12E1DA992D300FE599B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C34A19A1DA9964400FE599B;
+			remoteInfo = FlurryTVOS;
+		};
+		3C34A22E1DA9991E00FE599B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C34A12E1DA992D300FE599B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C34A1B61DA996DC00FE599B;
+			remoteInfo = FlurryAds;
+		};
+		3C34A2301DA9991E00FE599B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C34A12E1DA992D300FE599B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C34A1F81DA997FB00FE599B;
+			remoteInfo = TumblrAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C34A1371DA992D300FE599B /* FlurrySDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlurrySDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C34A1511DA9932700FE599B /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
+		3C34A1521DA9932700FE599B /* FlurryEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlurryEmpty.m; sourceTree = "<group>"; };
+		3C34A1531DA9932700FE599B /* FlurrySessionBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurrySessionBuilder.h; sourceTree = "<group>"; };
+		3C34A1541DA9932700FE599B /* FlurryWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlurryWatch.h; sourceTree = "<group>"; };
+		3C34A1551DA9932700FE599B /* FlurryWatchEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlurryWatchEmpty.m; sourceTree = "<group>"; };
+		3C34A15C1DA993D300FE599B /* libFlurry_7.8.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurry_7.8.0.a; path = Flurry/libFlurry_7.8.0.a; sourceTree = "<group>"; };
+		3C34A15D1DA993D300FE599B /* libFlurryTVOS_7.8.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurryTVOS_7.8.0.a; path = Flurry/libFlurryTVOS_7.8.0.a; sourceTree = "<group>"; };
+		3C34A15E1DA993D300FE599B /* libFlurryWatch_7.8.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurryWatch_7.8.0.a; path = Flurry/libFlurryWatch_7.8.0.a; sourceTree = "<group>"; };
+		3C34A16B1DA9944E00FE599B /* FlurryWatchSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlurryWatchSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C34A16F1DA994D200FE599B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C34A1751DA9952700FE599B /* WatchConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WatchConnectivity.framework; path = System/Library/Frameworks/WatchConnectivity.framework; sourceTree = SDKROOT; };
+		3C34A1771DA9952C00FE599B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		3C34A1791DA9953100FE599B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3C34A17B1DA9953500FE599B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		3C34A1821DA9959100FE599B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3C34A1951DA995B500FE599B /* FlurryWatchOSSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlurryWatchOSSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C34A1A71DA9964400FE599B /* FlurryTVOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlurryTVOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C34A1AB1DA9968900FE599B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		3C34A1AD1DA9968F00FE599B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3C34A1AF1DA9969300FE599B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3C34A1B11DA9969700FE599B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.0.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		3C34A1B31DA9969B00FE599B /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS10.0.sdk/System/Library/Frameworks/StoreKit.framework; sourceTree = DEVELOPER_DIR; };
+		3C34A1C61DA996DC00FE599B /* FlurryAds.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FlurryAds.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C34A1CA1DA9971400FE599B /* FlurryAdBanner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlurryAdBanner.h; sourceTree = "<group>"; };
+		3C34A1CB1DA9971400FE599B /* FlurryAdBannerDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlurryAdBannerDelegate.h; sourceTree = "<group>"; };
+		3C34A1CD1DA9971400FE599B /* FlurryAdInterstitial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlurryAdInterstitial.h; sourceTree = "<group>"; };
+		3C34A1CE1DA9971400FE599B /* FlurryAdInterstitialDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlurryAdInterstitialDelegate.h; sourceTree = "<group>"; };
+		3C34A1D01DA9971400FE599B /* FlurryAdNative.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlurryAdNative.h; sourceTree = "<group>"; };
+		3C34A1D11DA9971400FE599B /* FlurryAdNativeAsset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlurryAdNativeAsset.h; sourceTree = "<group>"; };
+		3C34A1D21DA9971400FE599B /* FlurryAdNativeDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlurryAdNativeDelegate.h; sourceTree = "<group>"; };
+		3C34A1D31DA9971400FE599B /* FlurryAdNativeStyle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlurryAdNativeStyle.h; sourceTree = "<group>"; };
+		3C34A1D61DA9971400FE599B /* FlurryAdsEmpty.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlurryAdsEmpty.m; sourceTree = "<group>"; };
+		3C34A1D71DA9971400FE599B /* libFlurryAds_7.8.0.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libFlurryAds_7.8.0.a; path = FlurryAds/libFlurryAds_7.8.0.a; sourceTree = "<group>"; };
+		3C34A1D91DA9971400FE599B /* FlurryAdError.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlurryAdError.h; sourceTree = "<group>"; };
+		3C34A1DA1DA9971400FE599B /* FlurryAdTargeting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlurryAdTargeting.h; sourceTree = "<group>"; };
+		3C34A1DC1DA9971400FE599B /* FlurryAdDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlurryAdDelegate.h; sourceTree = "<group>"; };
+		3C34A1DD1DA9971400FE599B /* FlurryAds.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlurryAds.h; sourceTree = "<group>"; };
+		3C34A1DE1DA9976300FE599B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3C34A1E01DA9976700FE599B /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		3C34A1E21DA9976C00FE599B /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		3C34A1E41DA9977100FE599B /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3C34A1E61DA9977600FE599B /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		3C34A2141DA997FB00FE599B /* TumblrAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TumblrAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C34A2171DA9981200FE599B /* FlurryTumblr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlurryTumblr.h; sourceTree = "<group>"; };
+		3C34A2181DA9981200FE599B /* FlurryTumblrDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlurryTumblrDelegate.h; sourceTree = "<group>"; };
+		3C34A2331DA999AB00FE599B /* FlurryAds-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlurryAds-Info.plist"; sourceTree = "<group>"; };
+		3C34A2341DA999AB00FE599B /* FlurrySDK-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlurrySDK-Info.plist"; sourceTree = "<group>"; };
+		3C34A2361DA999AB00FE599B /* FlurryTVOS-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlurryTVOS-Info.plist"; sourceTree = "<group>"; };
+		3C34A2371DA999AB00FE599B /* FlurryWatchOSSDK-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlurryWatchOSSDK-Info.plist"; sourceTree = "<group>"; };
+		3C34A2381DA999AB00FE599B /* FlurryWatchSDK-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlurryWatchSDK-Info.plist"; sourceTree = "<group>"; };
+		3C34A2391DA999D000FE599B /* TumblrAPI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TumblrAPI-Info.plist"; sourceTree = "<group>"; };
+		3C34A23A1DA99A3600FE599B /* FlurrySDK-Umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlurrySDK-Umbrella.h"; sourceTree = "<group>"; };
+		3C34A23C1DA99AD300FE599B /* FlurryTVOS-Umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlurryTVOS-Umbrella.h"; sourceTree = "<group>"; };
+		3C34A23D1DA99B1800FE599B /* FlurryWatchOSSDK-Umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlurryWatchOSSDK-Umbrella.h"; sourceTree = "<group>"; };
+		3C34A23E1DA99B5300FE599B /* FlurryWatchSDK-Umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlurryWatchSDK-Umbrella.h"; sourceTree = "<group>"; };
+		3C34A23F1DA99B8A00FE599B /* FlurryAds-Umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FlurryAds-Umbrella.h"; sourceTree = "<group>"; };
+		3C34A2401DA99C1900FE599B /* TumblrAPI-Umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TumblrAPI-Umbrella.h"; sourceTree = "<group>"; };
+		3C34A2461DA99D1000FE599B /* FlurryAds.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = FlurryAds.modulemap; sourceTree = "<group>"; };
+		3C34A2471DA99D6400FE599B /* TumblrAPI.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = TumblrAPI.modulemap; sourceTree = "<group>"; };
+		3C34A2481DA99D6B00FE599B /* FlurryWatchSDK.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = FlurryWatchSDK.modulemap; sourceTree = "<group>"; };
+		3C34A2491DA99D7000FE599B /* FlurryTVOS.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = FlurryTVOS.modulemap; sourceTree = "<group>"; };
+		3C34A24A1DA99D7E00FE599B /* FlurryWatchOSSDK.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = FlurryWatchOSSDK.modulemap; sourceTree = "<group>"; };
+		3C34A24B1DA99D8600FE599B /* FlurrySDK.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; path = FlurrySDK.modulemap; sourceTree = "<group>"; };
+		3C34A25B1DA9A1C300FE599B /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C34A16D1DA994C900FE599B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C34A25F1DA9A3A200FE599B /* libz.tbd in Frameworks */,
+				3C34A1671DA9944E00FE599B /* libFlurry_7.8.0.a in Frameworks */,
+				3C34A17C1DA9953500FE599B /* Security.framework in Frameworks */,
+				3C34A17A1DA9953100FE599B /* UIKit.framework in Frameworks */,
+				3C34A1781DA9952C00FE599B /* SystemConfiguration.framework in Frameworks */,
+				3C34A1761DA9952700FE599B /* WatchConnectivity.framework in Frameworks */,
+				3C34A1701DA994D200FE599B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C34A17D1DA9957900FE599B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C34A25E1DA9A36600FE599B /* libz.tbd in Frameworks */,
+				3C34A15F1DA993D500FE599B /* libFlurry_7.8.0.a in Frameworks */,
+				3C34A1841DA9959700FE599B /* WatchConnectivity.framework in Frameworks */,
+				3C34A1831DA9959100FE599B /* StoreKit.framework in Frameworks */,
+				3C34A1811DA9958D00FE599B /* Security.framework in Frameworks */,
+				3C34A1801DA9958900FE599B /* UIKit.framework in Frameworks */,
+				3C34A17F1DA9958500FE599B /* SystemConfiguration.framework in Frameworks */,
+				3C34A17E1DA9958100FE599B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C34A18C1DA995B500FE599B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C34A1991DA9961800FE599B /* libFlurryWatch_7.8.0.a in Frameworks */,
+				3C34A1901DA995B500FE599B /* WatchConnectivity.framework in Frameworks */,
+				3C34A1911DA995B500FE599B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C34A19B1DA9964400FE599B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C34A1B51DA996A200FE599B /* libFlurryTVOS_7.8.0.a in Frameworks */,
+				3C34A1B41DA9969B00FE599B /* StoreKit.framework in Frameworks */,
+				3C34A1B21DA9969700FE599B /* Security.framework in Frameworks */,
+				3C34A1B01DA9969300FE599B /* UIKit.framework in Frameworks */,
+				3C34A1AE1DA9968F00FE599B /* Foundation.framework in Frameworks */,
+				3C34A1AC1DA9968900FE599B /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C34A1B71DA996DC00FE599B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C34A25D1DA9A1CC00FE599B /* libz.tbd in Frameworks */,
+				3C34A1E91DA9978500FE599B /* libFlurryAds_7.8.0.a in Frameworks */,
+				3C34A21D1DA9988100FE599B /* FlurrySDK.framework in Frameworks */,
+				3C34A1E81DA9977C00FE599B /* StoreKit.framework in Frameworks */,
+				3C34A1E71DA9977600FE599B /* AdSupport.framework in Frameworks */,
+				3C34A1E51DA9977100FE599B /* AVFoundation.framework in Frameworks */,
+				3C34A1E31DA9976C00FE599B /* MediaPlayer.framework in Frameworks */,
+				3C34A1E11DA9976700FE599B /* CoreMedia.framework in Frameworks */,
+				3C34A1DF1DA9976300FE599B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C34A1FB1DA997FB00FE599B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C34A21F1DA9988A00FE599B /* FlurrySDK.framework in Frameworks */,
+				3C34A21E1DA9988600FE599B /* FlurryAds.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C34A12D1DA992D300FE599B = {
+			isa = PBXGroup;
+			children = (
+				3C34A15C1DA993D300FE599B /* libFlurry_7.8.0.a */,
+				3C34A15D1DA993D300FE599B /* libFlurryTVOS_7.8.0.a */,
+				3C34A15E1DA993D300FE599B /* libFlurryWatch_7.8.0.a */,
+				3C34A1D71DA9971400FE599B /* libFlurryAds_7.8.0.a */,
+				3C34A2321DA999AB00FE599B /* Frameworks */,
+				3C34A1391DA992D300FE599B /* Flurry */,
+				3C34A1C81DA9971400FE599B /* FlurryAds */,
+				3C34A2161DA9981200FE599B /* FlurryTumblrAPI */,
+				3C34A1381DA992D300FE599B /* Products */,
+				3C34A16E1DA994D200FE599B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3C34A1381DA992D300FE599B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C34A1371DA992D300FE599B /* FlurrySDK.framework */,
+				3C34A16B1DA9944E00FE599B /* FlurryWatchSDK.framework */,
+				3C34A1951DA995B500FE599B /* FlurryWatchOSSDK.framework */,
+				3C34A1A71DA9964400FE599B /* FlurryTVOS.framework */,
+				3C34A1C61DA996DC00FE599B /* FlurryAds.framework */,
+				3C34A2141DA997FB00FE599B /* TumblrAPI.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C34A1391DA992D300FE599B /* Flurry */ = {
+			isa = PBXGroup;
+			children = (
+				3C34A1511DA9932700FE599B /* Flurry.h */,
+				3C34A1521DA9932700FE599B /* FlurryEmpty.m */,
+				3C34A1531DA9932700FE599B /* FlurrySessionBuilder.h */,
+				3C34A1541DA9932700FE599B /* FlurryWatch.h */,
+				3C34A1551DA9932700FE599B /* FlurryWatchEmpty.m */,
+			);
+			path = Flurry;
+			sourceTree = "<group>";
+		};
+		3C34A16E1DA994D200FE599B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C34A1E61DA9977600FE599B /* AdSupport.framework */,
+				3C34A1E41DA9977100FE599B /* AVFoundation.framework */,
+				3C34A1E21DA9976C00FE599B /* MediaPlayer.framework */,
+				3C34A1E01DA9976700FE599B /* CoreMedia.framework */,
+				3C34A1DE1DA9976300FE599B /* CoreGraphics.framework */,
+				3C34A1B31DA9969B00FE599B /* StoreKit.framework */,
+				3C34A1B11DA9969700FE599B /* Security.framework */,
+				3C34A1AF1DA9969300FE599B /* UIKit.framework */,
+				3C34A1AD1DA9968F00FE599B /* Foundation.framework */,
+				3C34A1AB1DA9968900FE599B /* SystemConfiguration.framework */,
+				3C34A1821DA9959100FE599B /* StoreKit.framework */,
+				3C34A17B1DA9953500FE599B /* Security.framework */,
+				3C34A1791DA9953100FE599B /* UIKit.framework */,
+				3C34A1771DA9952C00FE599B /* SystemConfiguration.framework */,
+				3C34A1751DA9952700FE599B /* WatchConnectivity.framework */,
+				3C34A16F1DA994D200FE599B /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C34A1C81DA9971400FE599B /* FlurryAds */ = {
+			isa = PBXGroup;
+			children = (
+				3C34A1C91DA9971400FE599B /* FlurryAdBanner */,
+				3C34A1CC1DA9971400FE599B /* FlurryAdInterstitial */,
+				3C34A1CF1DA9971400FE599B /* FlurryAdNative */,
+				3C34A1D61DA9971400FE599B /* FlurryAdsEmpty.m */,
+				3C34A1D81DA9971400FE599B /* Shared */,
+				3C34A1DB1DA9971400FE599B /* StaticAPI */,
+			);
+			path = FlurryAds;
+			sourceTree = "<group>";
+		};
+		3C34A1C91DA9971400FE599B /* FlurryAdBanner */ = {
+			isa = PBXGroup;
+			children = (
+				3C34A1CA1DA9971400FE599B /* FlurryAdBanner.h */,
+				3C34A1CB1DA9971400FE599B /* FlurryAdBannerDelegate.h */,
+			);
+			path = FlurryAdBanner;
+			sourceTree = "<group>";
+		};
+		3C34A1CC1DA9971400FE599B /* FlurryAdInterstitial */ = {
+			isa = PBXGroup;
+			children = (
+				3C34A1CD1DA9971400FE599B /* FlurryAdInterstitial.h */,
+				3C34A1CE1DA9971400FE599B /* FlurryAdInterstitialDelegate.h */,
+			);
+			path = FlurryAdInterstitial;
+			sourceTree = "<group>";
+		};
+		3C34A1CF1DA9971400FE599B /* FlurryAdNative */ = {
+			isa = PBXGroup;
+			children = (
+				3C34A1D01DA9971400FE599B /* FlurryAdNative.h */,
+				3C34A1D11DA9971400FE599B /* FlurryAdNativeAsset.h */,
+				3C34A1D21DA9971400FE599B /* FlurryAdNativeDelegate.h */,
+				3C34A1D31DA9971400FE599B /* FlurryAdNativeStyle.h */,
+			);
+			path = FlurryAdNative;
+			sourceTree = "<group>";
+		};
+		3C34A1D81DA9971400FE599B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3C34A1D91DA9971400FE599B /* FlurryAdError.h */,
+				3C34A1DA1DA9971400FE599B /* FlurryAdTargeting.h */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		3C34A1DB1DA9971400FE599B /* StaticAPI */ = {
+			isa = PBXGroup;
+			children = (
+				3C34A1DC1DA9971400FE599B /* FlurryAdDelegate.h */,
+				3C34A1DD1DA9971400FE599B /* FlurryAds.h */,
+			);
+			path = StaticAPI;
+			sourceTree = "<group>";
+		};
+		3C34A2161DA9981200FE599B /* FlurryTumblrAPI */ = {
+			isa = PBXGroup;
+			children = (
+				3C34A2171DA9981200FE599B /* FlurryTumblr.h */,
+				3C34A2181DA9981200FE599B /* FlurryTumblrDelegate.h */,
+			);
+			path = FlurryTumblrAPI;
+			sourceTree = "<group>";
+		};
+		3C34A2321DA999AB00FE599B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C34A25B1DA9A1C300FE599B /* libz.tbd */,
+				3C34A23F1DA99B8A00FE599B /* FlurryAds-Umbrella.h */,
+				3C34A2331DA999AB00FE599B /* FlurryAds-Info.plist */,
+				3C34A2461DA99D1000FE599B /* FlurryAds.modulemap */,
+				3C34A23A1DA99A3600FE599B /* FlurrySDK-Umbrella.h */,
+				3C34A2341DA999AB00FE599B /* FlurrySDK-Info.plist */,
+				3C34A24B1DA99D8600FE599B /* FlurrySDK.modulemap */,
+				3C34A23C1DA99AD300FE599B /* FlurryTVOS-Umbrella.h */,
+				3C34A2361DA999AB00FE599B /* FlurryTVOS-Info.plist */,
+				3C34A2491DA99D7000FE599B /* FlurryTVOS.modulemap */,
+				3C34A23D1DA99B1800FE599B /* FlurryWatchOSSDK-Umbrella.h */,
+				3C34A2371DA999AB00FE599B /* FlurryWatchOSSDK-Info.plist */,
+				3C34A24A1DA99D7E00FE599B /* FlurryWatchOSSDK.modulemap */,
+				3C34A23E1DA99B5300FE599B /* FlurryWatchSDK-Umbrella.h */,
+				3C34A2381DA999AB00FE599B /* FlurryWatchSDK-Info.plist */,
+				3C34A2481DA99D6B00FE599B /* FlurryWatchSDK.modulemap */,
+				3C34A2401DA99C1900FE599B /* TumblrAPI-Umbrella.h */,
+				3C34A2391DA999D000FE599B /* TumblrAPI-Info.plist */,
+				3C34A2471DA99D6400FE599B /* TumblrAPI.modulemap */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3C34A1341DA992D300FE599B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C34A23B1DA99A8D00FE599B /* FlurrySDK-Umbrella.h in Headers */,
+				3C34A1561DA9932700FE599B /* Flurry.h in Headers */,
+				3C34A1581DA9932700FE599B /* FlurrySessionBuilder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C34A1611DA9944E00FE599B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C34A2411DA99C4000FE599B /* FlurryWatchSDK-Umbrella.h in Headers */,
+				3C34A1621DA9944E00FE599B /* Flurry.h in Headers */,
+				3C34A1631DA9944E00FE599B /* FlurryWatch.h in Headers */,
+				3C34A1641DA9944E00FE599B /* FlurrySessionBuilder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C34A1861DA995B500FE599B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C34A2421DA99C4400FE599B /* FlurryWatchOSSDK-Umbrella.h in Headers */,
+				3C34A1871DA995B500FE599B /* Flurry.h in Headers */,
+				3C34A1881DA995B500FE599B /* FlurryWatch.h in Headers */,
+				3C34A1891DA995B500FE599B /* FlurrySessionBuilder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C34A19E1DA9964400FE599B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C34A2431DA99C4700FE599B /* FlurryTVOS-Umbrella.h in Headers */,
+				3C34A19F1DA9964400FE599B /* Flurry.h in Headers */,
+				3C34A1A11DA9964400FE599B /* FlurrySessionBuilder.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C34A1BE1DA996DC00FE599B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C34A2441DA99C4900FE599B /* FlurryAds-Umbrella.h in Headers */,
+				3C34A1EA1DA997AD00FE599B /* FlurryAdBanner.h in Headers */,
+				3C34A1EB1DA997AE00FE599B /* FlurryAdBannerDelegate.h in Headers */,
+				3C34A1EC1DA997B200FE599B /* FlurryAdInterstitial.h in Headers */,
+				3C34A1ED1DA997B300FE599B /* FlurryAdInterstitialDelegate.h in Headers */,
+				3C34A1EE1DA997B700FE599B /* FlurryAdNative.h in Headers */,
+				3C34A1EF1DA997B900FE599B /* FlurryAdNativeAsset.h in Headers */,
+				3C34A1F01DA997BB00FE599B /* FlurryAdNativeDelegate.h in Headers */,
+				3C34A1F11DA997BE00FE599B /* FlurryAdNativeStyle.h in Headers */,
+				3C34A1F21DA997C300FE599B /* FlurryAdError.h in Headers */,
+				3C34A1F31DA997C700FE599B /* FlurryAdTargeting.h in Headers */,
+				3C34A1F41DA997CB00FE599B /* FlurryAdDelegate.h in Headers */,
+				3C34A1F51DA997CD00FE599B /* FlurryAds.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C34A2021DA997FB00FE599B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C34A2451DA99C5100FE599B /* TumblrAPI-Umbrella.h in Headers */,
+				3C34A2191DA9981F00FE599B /* FlurryTumblr.h in Headers */,
+				3C34A21A1DA9982000FE599B /* FlurryTumblrDelegate.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3C34A1361DA992D300FE599B /* FlurrySDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C34A14B1DA992D300FE599B /* Build configuration list for PBXNativeTarget "FlurrySDK" */;
+			buildPhases = (
+				3C34A24E1DA99FAD00FE599B /* Sources */,
+				3C34A17D1DA9957900FE599B /* Frameworks */,
+				3C34A1341DA992D300FE599B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlurrySDK;
+			productName = Flurry;
+			productReference = 3C34A1371DA992D300FE599B /* FlurrySDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3C34A1601DA9944E00FE599B /* FlurryWatchSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C34A1681DA9944E00FE599B /* Build configuration list for PBXNativeTarget "FlurryWatchSDK" */;
+			buildPhases = (
+				3C34A24F1DA99FB300FE599B /* Sources */,
+				3C34A16D1DA994C900FE599B /* Frameworks */,
+				3C34A1611DA9944E00FE599B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlurryWatchSDK;
+			productName = Flurry;
+			productReference = 3C34A16B1DA9944E00FE599B /* FlurryWatchSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3C34A1851DA995B500FE599B /* FlurryWatchOSSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C34A1921DA995B500FE599B /* Build configuration list for PBXNativeTarget "FlurryWatchOSSDK" */;
+			buildPhases = (
+				3C34A2501DA99FB700FE599B /* Sources */,
+				3C34A18C1DA995B500FE599B /* Frameworks */,
+				3C34A1861DA995B500FE599B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlurryWatchOSSDK;
+			productName = Flurry;
+			productReference = 3C34A1951DA995B500FE599B /* FlurryWatchOSSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3C34A19A1DA9964400FE599B /* FlurryTVOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C34A1A41DA9964400FE599B /* Build configuration list for PBXNativeTarget "FlurryTVOS" */;
+			buildPhases = (
+				3C34A2511DA99FBB00FE599B /* Sources */,
+				3C34A19B1DA9964400FE599B /* Frameworks */,
+				3C34A19E1DA9964400FE599B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlurryTVOS;
+			productName = Flurry;
+			productReference = 3C34A1A71DA9964400FE599B /* FlurryTVOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3C34A1B61DA996DC00FE599B /* FlurryAds */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C34A1C31DA996DC00FE599B /* Build configuration list for PBXNativeTarget "FlurryAds" */;
+			buildPhases = (
+				3C34A2521DA99FC000FE599B /* Sources */,
+				3C34A1B71DA996DC00FE599B /* Frameworks */,
+				3C34A1BE1DA996DC00FE599B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C34A1F71DA997D900FE599B /* PBXTargetDependency */,
+			);
+			name = FlurryAds;
+			productName = Flurry;
+			productReference = 3C34A1C61DA996DC00FE599B /* FlurryAds.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3C34A1F81DA997FB00FE599B /* TumblrAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C34A2111DA997FB00FE599B /* Build configuration list for PBXNativeTarget "TumblrAPI" */;
+			buildPhases = (
+				3C34A2531DA99FC400FE599B /* Sources */,
+				3C34A1FB1DA997FB00FE599B /* Frameworks */,
+				3C34A2021DA997FB00FE599B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C34A21C1DA9982600FE599B /* PBXTargetDependency */,
+				3C34A1F91DA997FB00FE599B /* PBXTargetDependency */,
+			);
+			name = TumblrAPI;
+			productName = Flurry;
+			productReference = 3C34A2141DA997FB00FE599B /* TumblrAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C34A12E1DA992D300FE599B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Flurry;
+				TargetAttributes = {
+					3C34A1361DA992D300FE599B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					3C34A1601DA9944E00FE599B = {
+						ProvisioningStyle = Automatic;
+					};
+					3C34A1851DA995B500FE599B = {
+						ProvisioningStyle = Automatic;
+					};
+					3C34A19A1DA9964400FE599B = {
+						ProvisioningStyle = Automatic;
+					};
+					3C34A1B61DA996DC00FE599B = {
+						ProvisioningStyle = Automatic;
+					};
+					3C34A2221DA9991700FE599B = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 3C34A1311DA992D300FE599B /* Build configuration list for PBXProject "Flurry" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3C34A12D1DA992D300FE599B;
+			productRefGroup = 3C34A1381DA992D300FE599B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C34A1361DA992D300FE599B /* FlurrySDK */,
+				3C34A1601DA9944E00FE599B /* FlurryWatchSDK */,
+				3C34A1851DA995B500FE599B /* FlurryWatchOSSDK */,
+				3C34A19A1DA9964400FE599B /* FlurryTVOS */,
+				3C34A1B61DA996DC00FE599B /* FlurryAds */,
+				3C34A1F81DA997FB00FE599B /* TumblrAPI */,
+				3C34A2221DA9991700FE599B /* Build All */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C34A24E1DA99FAD00FE599B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C34A2541DA9A02700FE599B /* FlurryEmpty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C34A24F1DA99FB300FE599B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C34A2551DA9A03800FE599B /* FlurryEmpty.m in Sources */,
+				3C34A2561DA9A03900FE599B /* FlurryWatchEmpty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C34A2501DA99FB700FE599B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C34A2571DA9A03F00FE599B /* FlurryWatchEmpty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C34A2511DA99FBB00FE599B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C34A2581DA9A04600FE599B /* FlurryEmpty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C34A2521DA99FC000FE599B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C34A2591DA9A04E00FE599B /* FlurryAdsEmpty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C34A2531DA99FC400FE599B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C34A25A1DA9A05700FE599B /* FlurryAdsEmpty.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C34A1F71DA997D900FE599B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C34A1361DA992D300FE599B /* FlurrySDK */;
+			targetProxy = 3C34A1F61DA997D900FE599B /* PBXContainerItemProxy */;
+		};
+		3C34A1F91DA997FB00FE599B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C34A1361DA992D300FE599B /* FlurrySDK */;
+			targetProxy = 3C34A1FA1DA997FB00FE599B /* PBXContainerItemProxy */;
+		};
+		3C34A21C1DA9982600FE599B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C34A1B61DA996DC00FE599B /* FlurryAds */;
+			targetProxy = 3C34A21B1DA9982600FE599B /* PBXContainerItemProxy */;
+		};
+		3C34A2271DA9991E00FE599B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C34A1361DA992D300FE599B /* FlurrySDK */;
+			targetProxy = 3C34A2261DA9991E00FE599B /* PBXContainerItemProxy */;
+		};
+		3C34A2291DA9991E00FE599B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C34A1601DA9944E00FE599B /* FlurryWatchSDK */;
+			targetProxy = 3C34A2281DA9991E00FE599B /* PBXContainerItemProxy */;
+		};
+		3C34A22B1DA9991E00FE599B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C34A1851DA995B500FE599B /* FlurryWatchOSSDK */;
+			targetProxy = 3C34A22A1DA9991E00FE599B /* PBXContainerItemProxy */;
+		};
+		3C34A22D1DA9991E00FE599B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C34A19A1DA9964400FE599B /* FlurryTVOS */;
+			targetProxy = 3C34A22C1DA9991E00FE599B /* PBXContainerItemProxy */;
+		};
+		3C34A22F1DA9991E00FE599B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C34A1B61DA996DC00FE599B /* FlurryAds */;
+			targetProxy = 3C34A22E1DA9991E00FE599B /* PBXContainerItemProxy */;
+		};
+		3C34A2311DA9991E00FE599B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C34A1F81DA997FB00FE599B /* TumblrAPI */;
+			targetProxy = 3C34A2301DA9991E00FE599B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3C34A1491DA992D300FE599B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C34A14A1DA992D300FE599B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3C34A14C1DA992D300FE599B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Frameworks/FlurrySDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flurry",
+				);
+				MODULEMAP_FILE = Frameworks/FlurrySDK.modulemap;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flurry.Flurry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3C34A14D1DA992D300FE599B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Frameworks/FlurrySDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flurry",
+				);
+				MODULEMAP_FILE = Frameworks/FlurrySDK.modulemap;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flurry.Flurry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3C34A1691DA9944E00FE599B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Frameworks/FlurryWatchSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flurry",
+				);
+				MODULEMAP_FILE = Frameworks/FlurryWatchSDK.modulemap;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flurry.Flurry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3C34A16A1DA9944E00FE599B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Frameworks/FlurryWatchSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flurry",
+				);
+				MODULEMAP_FILE = Frameworks/FlurryWatchSDK.modulemap;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flurry.Flurry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3C34A1931DA995B500FE599B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Frameworks/FlurryWatchOSSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flurry",
+				);
+				MODULEMAP_FILE = Frameworks/FlurryWatchOSSDK.modulemap;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flurry.Flurry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		3C34A1941DA995B500FE599B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Frameworks/FlurryWatchOSSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flurry",
+				);
+				MODULEMAP_FILE = Frameworks/FlurryWatchOSSDK.modulemap;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flurry.Flurry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		3C34A1A51DA9964400FE599B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Frameworks/FlurryTVOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flurry",
+				);
+				MODULEMAP_FILE = Frameworks/FlurryTVOS.modulemap;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flurry.Flurry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		3C34A1A61DA9964400FE599B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Frameworks/FlurryTVOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Flurry",
+				);
+				MODULEMAP_FILE = Frameworks/FlurryTVOS.modulemap;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flurry.Flurry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		3C34A1C41DA996DC00FE599B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Frameworks/FlurryAds-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FlurryAds",
+				);
+				MODULEMAP_FILE = Frameworks/FlurryAds.modulemap;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flurry.Flurry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3C34A1C51DA996DC00FE599B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Frameworks/FlurryAds-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FlurryAds",
+				);
+				MODULEMAP_FILE = Frameworks/FlurryAds.modulemap;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flurry.Flurry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3C34A2121DA997FB00FE599B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Frameworks/TumblrAPI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = Frameworks/TumblrAPI.modulemap;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flurry.Flurry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		3C34A2131DA997FB00FE599B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/Frameworks/TumblrAPI-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = Frameworks/TumblrAPI.modulemap;
+				OTHER_LDFLAGS = "-all_load";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flurry.Flurry;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		3C34A2241DA9991700FE599B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C34A2251DA9991700FE599B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C34A1311DA992D300FE599B /* Build configuration list for PBXProject "Flurry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C34A1491DA992D300FE599B /* Debug */,
+				3C34A14A1DA992D300FE599B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C34A14B1DA992D300FE599B /* Build configuration list for PBXNativeTarget "FlurrySDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C34A14C1DA992D300FE599B /* Debug */,
+				3C34A14D1DA992D300FE599B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C34A1681DA9944E00FE599B /* Build configuration list for PBXNativeTarget "FlurryWatchSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C34A1691DA9944E00FE599B /* Debug */,
+				3C34A16A1DA9944E00FE599B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C34A1921DA995B500FE599B /* Build configuration list for PBXNativeTarget "FlurryWatchOSSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C34A1931DA995B500FE599B /* Debug */,
+				3C34A1941DA995B500FE599B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C34A1A41DA9964400FE599B /* Build configuration list for PBXNativeTarget "FlurryTVOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C34A1A51DA9964400FE599B /* Debug */,
+				3C34A1A61DA9964400FE599B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C34A1C31DA996DC00FE599B /* Build configuration list for PBXNativeTarget "FlurryAds" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C34A1C41DA996DC00FE599B /* Debug */,
+				3C34A1C51DA996DC00FE599B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C34A2111DA997FB00FE599B /* Build configuration list for PBXNativeTarget "TumblrAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C34A2121DA997FB00FE599B /* Debug */,
+				3C34A2131DA997FB00FE599B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C34A2231DA9991700FE599B /* Build configuration list for PBXAggregateTarget "Build All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C34A2241DA9991700FE599B /* Debug */,
+				3C34A2251DA9991700FE599B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C34A12E1DA992D300FE599B /* Project object */;
+}

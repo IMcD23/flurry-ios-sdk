@@ -1,0 +1,6 @@
+framework module FlurryAds {
+  umbrella header "FlurryAds-Umbrella.h"
+
+  export *
+  module * { export * }
+}
